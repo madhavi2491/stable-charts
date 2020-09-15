@@ -241,7 +241,7 @@ master:
   initializeOnce: false
 
   # Enable to always override the installed plugins with the values of 'master.installPlugins' on upgrade or redeployment.
-  # overwritePlugins: true
+  overwritePlugins: true
 
   # Configures if plugins bundled with `master.image` should be overwritten with the values of 'master.installPlugins' on upgrade or redeployment.
   overwritePluginsFromImage: true
