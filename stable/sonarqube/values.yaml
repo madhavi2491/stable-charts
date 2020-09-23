@@ -190,7 +190,7 @@ database:
 ## ref: https://github.com/kubernetes/charts/blob/master/stable/postgresql/README.md
 postgresql:
   # Enable to deploy the PostgreSQL chart
-  enabled: true
+  enabled: false
   # To use an external PostgreSQL instance, set enabled to false and uncomment
   # the line below:
   # postgresqlServer: ""
@@ -210,16 +210,16 @@ postgresql:
 ##
 mysql:
   # Enable to deploy the mySQL chart
-  enabled: false
+  enabled: true
   # To use an external mySQL instance, set enabled to false and uncomment
   # the line below:
   # mysqlServer: ""
   # To use an external secret for the password for an external mySQL instance,
   # set enabled to false and provide the name of the secret on the line below:
   # mysqlPasswordSecret: ""
-  mysqlUser: "sonarUser"
-  mysqlPassword: "sonarPass"
-  mysqlDatabase: "sonarDB"
+  mysqlUser: "root"
+  mysqlPassword: "8eHpdloRFd"
+  mysqlDatabase: "my_database"
   # mysqlParams:
   #   useSSL: "true"
   # Specify the TCP port that mySQL should use
